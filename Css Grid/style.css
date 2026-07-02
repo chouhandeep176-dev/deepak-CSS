@@ -1,0 +1,34 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #515151;
+  padding: 5%;
+
+  /* grid display property */
+  display: grid;
+
+  /* asigning column sizes */
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(2, 1fr);
+
+  /* asigning row sizes */
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  grid-template-rows: repeat(3, 1fr);
+
+  /* applying column gap */
+  column-gap: 5%;
+
+  /* applying row gap */
+  row-gap: 5%;
+}
+
+.item {
+  background-color: pink;
+  border: 2px solid black;
+}

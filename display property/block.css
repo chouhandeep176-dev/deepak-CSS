@@ -1,0 +1,27 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* block elements appearce in next line */
+/* block elements takes maximum width */
+.p1,
+.p2,
+.p3 {
+    /* can be changed to inline element */
+    /* display: inline; */ 
+  background-color: pink;
+  border: 2px solid black;
+}
+
+.p1{
+     /* width and height can be changed in case of block element */
+    width: 200px; 
+    height: 200px;
+}
+
+.p2{
+    /* padding and margin can be changed in case of block element */
+    padding: 20px;
+    margin: 15px;
+}

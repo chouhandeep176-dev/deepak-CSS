@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+body{
+  counter-reset: my-counter 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: pink; */
+    align-items: start;
+    margin-bottom: 1rem;
+}
+
+hr{
+    align-self: stretch;
+}
+
+.heading {
+    font-size: 1.3rem;
+    color: crimson;
+    /* text-align: center; */
+    line-height: 3rem;
+}
+
+.heading::before {
+  content: "step " counter(my-counter) ' : ';
+  counter-increment: my-counter 1;
+  color: #808080;
+  font-weight: 700;
+
+}
+
+.pg {
+    line-height: 1.3rem;
+}
+
+.heading {
+    counter-reset: skills;
+}
+
+.pg::before {
+    content: counter(my-counter) ':' counter(skills) " - ";
+    counter-increment: skills 1;
+}
+
+

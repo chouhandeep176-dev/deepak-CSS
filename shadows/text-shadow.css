@@ -1,0 +1,24 @@
+.txt1 {
+  /* apply shadow corresponding to x and y axis  */
+  text-shadow: 2px 2px grey;
+}
+
+.txt2 {
+  /* apply shadow corresponding to negative x and y axis  */
+  text-shadow: -2px -2px grey;
+}
+
+.txt3 {
+  /* apply blur radius */
+  text-shadow: 2px 2px 2px grey;
+}
+
+.txt4 {
+  /* apply color */
+  text-shadow: 5px 5px 2px pink;
+}
+
+.txt5 {
+  /* apply multiple shadows on single text */
+  text-shadow: 4px 4px 2px red, 7px 7px 2px green, 10px 10px 2px blue;
+}

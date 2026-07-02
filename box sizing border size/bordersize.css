@@ -1,0 +1,50 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border: 3px black solid;
+
+    overflow-x: visible;
+}
+
+/* .box2{
+    margin-top: 20px;
+}
+
+.box2 > .inl {
+    background-color: pink;
+    border: 2px solid black;
+    padding: 1em;
+
+} */
+
+/* .box{
+    border: 2px black solid;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+} */
+
+/* .p1,
+.p2 {
+    box-sizing: content-box;
+    box-sizing: border-box;
+    width: 200px;
+    border: 5px solid skyblue;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+    background-color: lightseagreen;
+}
+
+.p1{
+    width: 200px;
+    padding: 50px;
+} */

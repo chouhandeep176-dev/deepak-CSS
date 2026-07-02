@@ -1,0 +1,41 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#coffee {
+  width: 600px;
+  height: 600px;
+
+  /* apply blur to the image(in pixels) */
+  /* filter: blur(10px); */
+
+  /* set brightness of the image in percentage */
+  /* filter: brightness(50%); */
+
+  /* set opacity of the image */
+  /* filter: opacity(70%); */
+
+  /* set saturation of the image */
+  /* filter: saturate(50%); */
+
+  /* set contrast of the image  */
+  /* filter: contrast(20%); */
+
+  /* set gryscale of the iamge  */
+  /* filter: grayscale(50%); */
+
+  /* invert colors of an image */
+  /* filter: invert(100%); */
+
+  filter: drop-shadow(10px 10px 3px gray);
+}
+
+.coffee:hover {
+    /* filter: invert(100%); */
+    box-shadow: 10px 10px 3px black;
+}

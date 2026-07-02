@@ -1,0 +1,29 @@
+.box {
+  width: 500px;
+  height: 200px;
+  background-color: pink;
+  border: 5px solid black;
+  border-radius: 20px;
+
+  /* apply transition property */
+  transition-property: border-radius, background-color;
+
+  /* add transition duration */
+  transition-duration: 0.5s;
+
+  /* apply transition delay  */
+  transition-delay: 0s;
+
+  /* transition timing function */
+  transition-timing-function: ease;
+
+  /* shorthand for transition */
+  /* transition: width 2s 0s ease-out,
+  background-color 2s 0s ease-out
+  ; */
+}
+
+.box:hover {
+  border-radius: 33%;
+  background-color: lightblue;
+}

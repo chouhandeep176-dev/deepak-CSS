@@ -1,0 +1,36 @@
+body {
+  background-color: #3c3c3c;
+  color: white;
+  padding: 2rem;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h2::first-letter {
+  font-size: 2.7rem;
+  color: crimson;
+}
+
+p::first-line {
+  color: burlywood;
+}
+
+::selection {
+  background-color: #fff;
+  color: black;
+}
+
+a::before {
+  content: "* ";
+  color: rgb(239, 193, 122);
+}
+
+a::after {
+  content: " ->";
+  color: rgb(226, 100, 100);
+}

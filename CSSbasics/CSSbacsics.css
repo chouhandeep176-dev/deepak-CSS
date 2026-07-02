@@ -1,0 +1,68 @@
+/* #content{
+    background-color: gray;
+}
+
+#qna{
+    background-color: #15d5c5;
+    width: 600px;
+    
+} 
+
+.del{
+    color: green;
+}
+
+.resume{
+    background-color: #6fc3da;
+    width: 600px;
+}
+
+h2{
+    color: blueviolet;
+}
+
+#headerSection,#content{
+    background-color: grey;
+}
+ */
+/* 
+.resume {
+  width: 600px;
+}
+
+#headerSection > #myname {
+  color: green;
+  text-align: center;
+}
+
+#qna #q1 {
+  color: blue;
+}
+
+#qna #q2 {
+  color:blueviolet;
+}
+
+#qna #q3 {
+  color:brown;
+}
+
+#content a:link{
+    color: blueviolet;
+} */
+
+
+#yt:link{
+    color: black;
+}
+
+#yt:visited{
+    color: black;
+}
+
+#ig:hover{
+    background-color: brown;
+}
+#fb:active{
+    color: grey;
+}

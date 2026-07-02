@@ -1,0 +1,27 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+#img1{
+  float: left;
+  border: 2px solid black;
+}
+
+#p1{
+  background-color: pink;
+}
+
+#img2{
+  float: right;
+  height: 200px;
+  width: 200px;
+}
+
+#p2{
+  background-color: pink;
+}

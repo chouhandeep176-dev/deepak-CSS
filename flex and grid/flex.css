@@ -1,0 +1,82 @@
+.container {
+  /* making the container flex */
+  display: flex;
+
+  /* flex-direction property */
+  flex-direction: row;
+
+  /* flex-wrap property */
+  flex-wrap: wrap-reverse;
+
+  /* short hand for wrap and flex direction */
+  /* flex-flow: row wrap; */
+
+  /* justify content property */
+  justify-content: start;
+
+  /* align items */
+  align-items: start;
+
+  /* align content */
+  align-content: start;
+
+  background-color: beige;
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 600px;
+}
+
+.items {
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 5px;
+  font-weight: 400;
+}
+
+#item1 {
+  background-color: pink;
+  /* flex-grow: 7; */
+
+  /* short hand for setting grow, shrink and basis */
+  /* flex: 0 5 300px; */
+}
+
+#item2 {
+  background-color: skyblue;
+  /* order: -6; */
+  align-self: center;
+}
+
+#item3 {
+  background-color: lightgreen;
+}
+
+/* centring a div */
+
+#container {
+  /* step 1: make the container display flex */
+  display: flex;
+  /* step 2: justify content as center */
+  justify-content: center;
+  /* step 2: align item as center */
+  align-items: center;
+
+  width: 500px;
+  height: 500px;
+  background-color: lightgrey;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#it {
+  width: 150px;
+  height: 150px;
+  background-color: pink;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 5px;
+}

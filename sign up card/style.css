@@ -1,0 +1,166 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2a2438;
+}
+.project {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --cus-blue: #1058f5;
+  --text-clr: #333333;
+  --gray-clr: #808080;
+  --light-gray-clr: #c1c1c1;
+  --link-clr: #2563eb;
+}
+
+#sign-in-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.sign-up-card {
+  width: 30rem;
+  height: 24rem;
+  overflow: hidden;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: start;
+
+  border-radius: 0.5rem;
+  background-color: #323643;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#card-heading {
+  align-self: center;
+  color: rgb(196, 196, 196);
+}
+
+.inputs {
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  background-color: #606470;
+
+  border-radius: 0.5rem;
+}
+
+.inputs::placeholder {
+  font-size: 1rem;
+}
+
+.check-box-area {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#terms-text {
+  color: rgb(196, 196, 196);
+}
+
+#terms-text,
+#terms-and-conditions {
+  font-size: 0.88rem;
+}
+
+#terms-and-conditions {
+  text-decoration: none;
+  color: var(--link-clr);
+}
+
+.submit-button {
+  border: none;
+  background-color: var(--cus-blue);
+  width: 95%;
+  align-self: center;
+
+  padding: 0.7rem;
+  font-size: 1rem;
+  color: white;
+
+  border-radius: 25px;
+  box-shadow: #060606 0px 4px 6px -1px, #060606 0px 2px 4px -1px;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+
+  z-index: -1;
+
+  /* padding: rem; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 80px);
+  grid-template-rows: repeat(auto-fit, 80px);
+  grid-column-gap: 0.3rem;
+  grid-row-gap: 0.3rem;
+
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: #352f44;
+
+  transition: background-color 0.5s ease;
+}
+.box:hover {
+  background-color: var(--cus-blue);
+}
+
+.blue-background {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -3;
+
+  position: absolute;
+}
+
+.bluebox {
+  width: 100vw;
+  height: 18rem;
+  background-color: var(--cus-blue);
+
+  box-shadow: var(--cus-blue) 3px 3px 40px 20px;
+
+  animation-name: slideDown;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}

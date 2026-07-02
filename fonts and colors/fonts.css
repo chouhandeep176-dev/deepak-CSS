@@ -1,0 +1,14 @@
+.para1,
+.para2,
+.para3,
+.para4 {
+  color: brown; /*set font color  */
+  font-weight: 600; /*set thickness*/
+  /* font-style: italic; style the font */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; /*set font family */
+  font-size: 1em;
+  line-height: 30px
+  px; /*set heght in lines */
+  word-spacing: 3px; /*spacing in word */
+  letter-spacing: 2px; /*spacing in letters */
+}

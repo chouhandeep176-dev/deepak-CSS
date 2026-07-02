@@ -1,0 +1,36 @@
+
+#ch1{
+    
+    border: 2px solid black;
+    background-color: lightskyblue;
+    width: 200px;
+    height: 200px;
+    margin: 3px;
+    float: left;
+
+}
+
+#ch2{
+    border: 2px solid black;
+    background-color: lightskyblue;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 3px;
+    clear:  left;
+}
+
+#ch3{
+    border: 2px solid black;
+    background-color: lightskyblue;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 3px;
+    
+}
+
+
+
+
+

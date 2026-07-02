@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.d1{
+    border:2px solid black;
+    background-color: lightgreen;
+
+    /* pixels */
+    /* font-size: 20px; */
+
+    /* rem */
+    font-size: 1rem;
+}
+
+.d2{
+    box-sizing: border-box;
+    border:2px solid grey;
+    background-color: lightskyblue;
+
+    /* em */
+    font-size: 1em;
+    
+}

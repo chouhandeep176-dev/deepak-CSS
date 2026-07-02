@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+#story-heading {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+#story-paragraph {
+    color: #808080;
+}

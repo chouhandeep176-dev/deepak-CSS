@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #222222;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #222222;
+}
+
+.circle {
+  width: 8rem;
+  height: 8rem;
+
+  margin: 1rem;
+
+  border: 4px solid rgb(134, 233, 150);
+  border-radius: 50%;
+
+  background-color: #8064e3;
+
+  position: relative;
+
+  /* Animation --> */
+  /* animation-name: move;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-fill-mode: both;
+  animation-iteration-count: 3; */
+
+  /* shorthand --> */
+  animation: move 2s linear alternate 3s;
+  animation-iteration-count: 3;
+  animation-fill-mode: both;
+}
+
+@keyframes move {
+  0% {
+    /* background-color: #dc6f6f; */
+    top: 0px;
+    left: 0px;
+  }
+  50% {
+    /* background-color: #6fdcab; */
+  }
+  100% {
+    /* background-color: #6fbbdc; */
+
+    top: 0px;
+    left: 1100px;
+  }
+}
+
+.boxes {
+  position: relative;
+  height: 4rem;
+  width: 8rem;
+
+  background-color: #dd7979;
+  margin: 1rem;
+
+  border: 4px solid rgb(230, 170, 92);
+  border-radius: 1.2rem;
+
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+
+  /* shorthand --> */
+  animation: move 2s linear alternate 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.box {
+  height: 20rem;
+  width: 100%;
+
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.box-1 {
+  animation-timing-function: ease;
+}
+
+.box-2 {
+  animation-timing-function: ease-in;
+}
+
+.box-3 {
+  animation-timing-function: ease-in-out;
+}
+
+.box-4 {
+  animation-timing-function: linear;
+}
+
+.box-5 {
+  animation-timing-function: ease-out;
+}

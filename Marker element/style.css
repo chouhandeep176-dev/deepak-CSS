@@ -1,0 +1,32 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.list-heading, .ordered-list {
+    padding-left: 2rem;
+}
+
+.ordered-list  {
+    line-height: 1.8rem;
+    
+}
+
+.list-heading {
+    margin: 1rem 0rem;
+}
+
+.ordered-list>li::marker {
+    color: crimson;
+    content: '> ';
+}
+
+.list-heading::before {
+    content: open-quote;
+}
+
+.list-heading::after {
+    content: close-quote;
+}

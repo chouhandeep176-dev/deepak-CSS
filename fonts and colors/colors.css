@@ -1,0 +1,29 @@
+.para1,
+.para2,
+.para3,
+.para4 {
+  width: 500px;
+  height: 300px;
+}
+
+.para1 {
+  /* color added using names  */
+  background-color: pink;
+}
+
+.para2 {
+  /* color added using rgb method */
+  background-color: rgb(183, 248, 134);
+  background-color: rgba(114, 232, 159, 0.927);
+}
+
+.para3 {
+  /* color added using hexadecimal method */
+  background-color: #74abee;
+}
+
+.para4 {
+  /* color added usimg hsl */
+  background-color: hsl(290, 86%, 66%);
+  background-color: hsl(295, 79%, 72%);
+}
